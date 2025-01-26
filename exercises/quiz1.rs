@@ -18,9 +18,9 @@
 // Put your function here!
 fn calculate_price_of_apples(quantity: i32) -> i32 {
     if quantity > 40 {
-        quantity
+        return quantity;
     } else {
-        quantity * 2
+        return quantity * 2;
     }
 }
 
