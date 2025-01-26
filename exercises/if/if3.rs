@@ -12,7 +12,7 @@ pub fn animal_habitat(animal: &str) -> &'static str {
     } else if animal == "snake" {
         3
     } else {
-        0
+        4
     };
 
     // DO NOT CHANGE THIS STATEMENT BELOW
